@@ -1,0 +1,20 @@
+<h1>Add a New Article</h1>
+
+<form action="/articles" method="post">
+  <div>
+    <label for="article-title">Title</label>
+    <input type="text" name="article[title]" id="article-title">
+  </div>
+
+  <div>
+    <label for="article-url">Url</label>
+    <input type="text" name="article[url]" id="article-url">
+  </div>
+
+  <div>
+    <label for="article-description">Description</label>
+    <textarea name="article[description]" id="article-title"></textarea>
+  </div>
+
+  <input type="submit" value="Add">
+</form>
